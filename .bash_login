@@ -1,0 +1,4 @@
+#!/bin/bash
+
+ssh -f abbyw@webdev.awbv.net -L 3306:webdev.awbv.net:3306 -N
+ssh -f abbyw@webdev.awbv.net -L 6379:webdev.awbv.net:6379 -N
